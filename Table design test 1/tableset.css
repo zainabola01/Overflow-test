@@ -1,0 +1,40 @@
+
+#table {
+    width: 750px;
+    height:400px;
+    border-collapse: collapse;
+    font-size: 1.2rem;
+    font-family: 'Times New Roman', Times, serif;
+    border: 1px solid black;
+}
+   
+div {
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px;
+}
+
+th,
+td {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid black;
+}
+tbody tr:nth-child(odd) {
+    background-color: #c0c0c0;
+}
+
+tfoot {
+    font-weight: bold;
+    text-align: right;
+    background-color: #c0c0c0;
+}
+th,
+tfoot{
+    font-family: 'rock salt', cursive;
+}
+/* tfoot td {
+    background: linear-gradient (to bottom, rgb(0 0 0/10%), rgb(0 0 0 / 50%));
+    border: 3px solid purple;
+} */

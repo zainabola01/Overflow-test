@@ -1,0 +1,82 @@
+<!DOCTYPE >
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width">
+        <title>Flex header II</title>
+       <style>
+        body{
+            font-family: Besley,serif;
+
+          }
+          header{
+            display: flex;
+            height: 70px;
+            justify-content: space-between;
+            align-items: center;
+            margin: 8px;
+            gap:8px;
+            background-color: #dcdcdc;
+            /* border-bottom: 1px solid red; */
+            /* box-shadow: 0 0 8px rgba(0, 0, 0, 1;) */
+            
+          }
+          .image{
+            background-color: #4b0082;
+            /* box-shadow: insert 2px 2px 4px rgba(0, 0, 0, 1.5); */
+            border-radius: 50%;
+            width: 45px;
+            height: 45px;
+            margin: 7px 2px;
+            align-items: center;
+
+          }
+          .box{
+            display: flex;
+            align-items: center;
+            color: #4b0082;
+            margin: 8px;
+          }
+          .logo{
+            font-size: 1.8rem;
+            font-style: italic;
+           
+          }
+          ul{
+            display: flex;
+            list-style-type:none;
+            gap: 15px; 
+          }
+          .new{
+            padding: 8px 24px;
+            border: 0px;
+            border-radius: 8px;
+            background-color: #4b0082;
+            color: white;
+           
+          }
+          .right{ 
+            display: flex;
+            gap:inherit;
+          }
+        </style>
+    </head>
+    <body>
+        <header>
+            <div class="box">
+                <p class="logo">LOGO</p>
+                <div class="item2">
+                <ul>
+                    <li>link-one</li>
+                    <li>link-two</li>
+                    <li>link-three</li>
+                </ul> 
+                </div>
+            </div>
+            <div class="right">
+                <p class="new"> 1 new notification</p>
+                <div class="image"
+            </div>
+        </header>
+    </body>
+</html>

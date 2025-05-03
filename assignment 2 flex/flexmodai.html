@@ -1,0 +1,89 @@
+<!DOCTYPE >
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width">
+        <title>Flex modal</title>
+        <style>
+            main {
+                /* fonts-size= 10px/16px=> 0.652=> 1rem */
+                width: 60rem;
+                height: 40rem;
+                background: #c0c0c0;
+                margin:auto;
+                font-family: 'Times New Roman', Times, serif;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+            .main{
+                width: 35rem;
+                padding:1.5rem;
+                border:0px;
+                border-radius: 10px;
+                background-color: white;
+                display: flex;
+                justify-content: space-between;
+                margin-bottom: 8px;
+                
+               
+            }
+            .colon{
+                color: #334eac;
+                font-size: 26px;
+                font-weight: bold;
+                border-radius: 50%;
+                width: 25px;
+                height: 25px;
+                background-color: #d0e3ff;
+                padding: 5px 8px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                flex-shrink: 0;
+                
+            }
+            .header{
+                
+               padding: 10px;
+               font-size: 1.5rem;
+            }
+            button{
+                padding: 8px 16px;
+                border-radius: 8px;
+            }
+            .closebutton{
+                background-color: #d0e3ff;
+                font-size: 16px;
+            }
+            .blue{
+                color: white;
+                background-color:#334eac;
+                border: 2px solid #334eac; 
+            }
+            .white{
+                color: #334eac;
+                border: 2px solid white;  
+            }
+        </style>
+    </head>
+    <body>
+        <main>
+        <div class="main">
+            <h1 class="colon">!</h1>
+            <div class="box">
+                <div class="header">Are you sure you want to do that?
+                 <button class="closebutton">X</button>
+                </div> 
+                <div class="text">The following questions are an opportunity to reflect on key topics in this lesson. If you can’t answer a question, 
+                    click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
+                </p> 
+                <div class="button">
+                    <button  class="blue">Continue</li>
+                    <button class="white">Cancel</li>
+                </div>
+            </div>
+        </div>
+        </main>
+    </body>
+</html>

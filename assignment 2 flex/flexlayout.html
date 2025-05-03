@@ -1,0 +1,127 @@
+<!DOCTYPE >
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width">
+        <title>Flex Layout</title>
+        <style>
+            /* font-size= 10px/16px => 0.652=> 1rem */
+            body{
+                background-color: #f0f8ff;
+            }
+            header {
+                font-size: 30px;
+                font-weight: 900;
+                background-color: #081f5c;
+                color: white;
+                padding: 20px;
+                text-transform: uppercase;
+            }
+            .body {
+                display: flex;
+                justify-content: space-between;
+                /* height: 30rem; */
+            }
+            aside {
+                width: 25rem;
+                font-size: 1.5rem;
+                font-weight: 700;
+                background-color: #7096d1;
+                color: white;
+                
+            }
+            .main {
+                padding: 2rem;
+                font-size: 1rem;
+                
+            }
+            .main1  {
+                display: flex;
+                justify-content: space-between;
+                
+            }
+            .main2 {
+                display: flex;
+                justify-content: space-between;
+            }
+
+            .main p {
+                width: 300px;
+                height: 250px;
+                padding: 2rem;
+                margin: 1rem;
+                border: 1px solid #7096d1;
+                border-radius: 5px;
+                box-shadow: 0 2px 3px rgba(0, 0, 0, 2);
+            }
+
+            footer{
+                font-size: 1.5rem;
+                text-align: center;
+                background-color: #cddced;
+                padding: 1.5rem
+            }
+        </style>
+    </head>
+    <body>
+        <header> My Awesome Website</header>
+        <div class="body">
+            <aside>
+                <div class="link">
+                    <p>-link one</p>
+                    <p>-link two</p>
+                    <p>-link three</p>
+                    <p>-link four</p>
+                </div>
+            </aside>
+
+            <div class="main">
+                <div class="main1">
+                    <p>It was like taking a college course except it was free and in my own time.
+                    I started going through the course, and by June 2015 I got my first development job. 
+                    Exactly 14 months after I started The Odin Project. I never had to quit my job, and
+                    I always had something to look forward to in the evening.
+                    </p>
+                
+                    <p>It was like taking a college course except it was free and in my own time.
+                        I started going through the course, and by June 2015 I got my first development job.
+                         Exactly 14 months after I started The Odin Project. I never had to quit my job, and 
+                        I always had something to look forward to in the evening.
+                    </p>
+
+
+                    <p>It was like taking a college course except it was free and in my own time.
+                        I started going through the course, and by June 2015 I got my first development job. 
+                        Exactly 14 months after I started The Odin Project. I never had to quit my job, and 
+                        I always had something to look forward to in the evening. 
+                    </p>
+                </div>       
+            
+                <div class="main2">
+                    <p>It was like taking a college course except it was free and in my own time.
+                        I started going through the course, and by June 2015 I got my first development job.
+                        Exactly 14 months after I started The Odin Project. I never had to quit my job, and 
+                        I always had something to look forward to in the evening.
+                    </p>
+
+                    <p>It was like taking a college course except it was free and in my own time.
+                        I started going through the course, and by June 2015 I got my first development job. 
+                        Exactly 14 months after I started The Odin Project. I never had to quit my job, and 
+                        I always had something to look forward to in the evening.
+                    </p>
+
+                    <p>It was like taking a college course except it was free and in my own time.
+                        I started going through the course, and by June 2015 I got my first development job. 
+                        Exactly 14 months after I started The Odin Project. I never had to quit my job, and 
+                        I always had something to look forward to in the evening. 
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <footer>
+             The Odin Project
+        </footer>
+        
+    </body>
+</html>
